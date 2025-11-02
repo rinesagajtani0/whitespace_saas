@@ -16,7 +16,7 @@ img {
   display: block;
 }
 
-/* buttons*/
+
 .btn{
     display: inline-block;
     padding:10px 16px;
@@ -25,6 +25,7 @@ img {
     text-decoration: none;
     border: 1px solid transparent;
     cursor: pointer;
+    transition: all 0.3s ease-in;
 }
 
 .btn--blue {
@@ -39,6 +40,52 @@ img {
   border: 1px solid #FFE492;
 }
 
+.btn--blue:hover{
+    background: #4f9cf9a6;
+    transform: translateY(-2px);
 
+}
+
+.btn--outline:hover{
+    background: whitesmoke;
+    transform: translateY(-2px);
+}
+
+
+
+.hero{
+    padding: 220px, 232.5px;
+    color:#FFFFFF;
+    background: #043873
+}
+
+.hero__container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+
+    max-width: 1191px;
+    margin: 0 auto;
+}
+
+.hero__content
+{
+    max-width: 480px;
+}
+
+.hero__title{
+    font-size: 50px;
+    font-weight: 700;
+   margin-bottom: 19px;
+}
+
+.hero__text{
+    font-size: 16px;
+    line-height: 1.8em;
+    margin-bottom: 25px;
+}
 
 
