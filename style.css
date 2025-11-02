@@ -112,6 +112,115 @@ img {
 }
 .customise__text {
   font-size: 16px;
-  line-height: 1.8em;
+  line-height: 1.5em;
   margin-bottom: 25px;
+}
+.pricing {
+  padding: 80px 16px 100px;
+  /* text-align: center; */
+}
+
+.pricing__header {
+  max-width: 640px;
+  margin: 0 auto 48px;
+}
+
+.pricing__title {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.pricing__text {
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: center;
+}
+.pricing__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 90px;
+}
+.pricing__card {
+  background: #fff;
+  border: 1px solid #ffe492;
+  border-radius: 8px;
+  padding: 24px 24px 24px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 300px;
+  transition: all 0.3s ease;
+   position: relative;
+   top: 0;
+}
+.pricing__card--featured {
+  background: #043873;
+  border-color: #043873;
+  color: #fff;
+  max-width: 330px; 
+  transform: translateY(-35px);
+  z-index: 1;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  line-height: 1.8em;
+}
+.pricing__plan {
+  font-size: 16px;
+  font-weight: 600;
+  color: inherit;
+  margin-bottom: 8px;
+}
+.pricing__price {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: inherit;
+  margin-bottom: 16px;
+}
+.pricing__price--accent {
+  color: #ffe492;
+}
+.pricing__intro {
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.pricing__intro--light {
+  color: #fff;
+}
+.pricing__features {
+  list-style: none;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 24px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.pricing__feature {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.pricing__card .btn {
+  width: 140px;      
+  text-align: center; 
+}
+.pricing__card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+.pricing__card--featured:hover {
+  transform: translateY(-30px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.35);
 }
