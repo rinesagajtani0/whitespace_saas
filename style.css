@@ -224,3 +224,34 @@ img {
   transform: translateY(-30px);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.35);
 }
+.work{
+  color: #ffffff;
+  background: #043873;
+   padding:0px 10px;
+}
+.work__container {
+  max-width: 1191px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 32px;
+}
+.work__content {
+  max-width: 1000px;
+}
+
+.work__title {
+   font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.work__text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  max-width: 480px;
+}
