@@ -64,17 +64,33 @@ body {
 }
 
 .btn {
-  background: #4F9CF9;
-  color: #FFFFFF;
+  background: #4f9cf9;
+  color: #fff;
   text-decoration: none;
-  padding: 20px 40px;
+  padding: 14px 32px;
   border-radius: 8px;
   font-weight: 500;
-  transition: background 0.3s;
+  font-size: 16px;
+  display: inline-flex;             
+  align-items: center;             
+  justify-content: center;
+  gap: 8px;                   
+  transition: background 0.3s ease;
 }
 
 .btn:hover {
   background: #0088cc;
+}
+
+.arrow-icon {
+  width: 14px;     
+  height: 14px;                 
+  margin-top: 1px;                 
+  transition: transform 0.3s ease;
+}
+
+.btn:hover .arrow-icon {
+  transform: translateX(4px);        
 }
 
 .testimonials {
