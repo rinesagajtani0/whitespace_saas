@@ -10,6 +10,10 @@ body {
   background-color: #fff;
   font-family: "Inter";
 }
+img {
+  max-width: 100%;
+  display: block;
+}
 .container {
   width: 90%;
   max-width: 1200px;
