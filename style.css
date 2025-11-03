@@ -389,3 +389,133 @@ body {
     margin-top: 40px;
   }
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    max-width: 700px;
+  }
+
+  .integration {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .integration-content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .integration-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .integration-logos img {
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .integration-text {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .integration-text h2 {
+    font-size: 36px;
+    line-height: 1.3;
+    margin-top: 0;
+  }
+
+  .integration-text p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    padding: 14px 30px;
+    font-size: 14px;
+  }
+
+  .testimonials {
+    padding: 60px 0;
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 34px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap: 24px;
+    padding: 20px 15%;
+  }
+
+  .testimonial-cards::before {
+    content: "";
+    flex: 0 0 5%;
+  }
+
+  .testimonial-card {
+    flex: 0 0 70%;
+    max-width: 70%;
+    min-width: 70%;
+    scroll-snap-align: center;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+  }
+
+  .testimonial-cards::-webkit-scrollbar {
+    display: none;
+  }
+
+  .testimonial-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .quote {
+    font-size: 15px;
+    padding-top: 60px;
+  }
+
+  .quote-icon {
+    width: 60px;
+    height: auto;
+  }
+
+  .profile {
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .profile img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profile h4 {
+    font-size: 15px;
+  }
+
+  .profile p {
+    font-size: 13px;
+  }
+
+  .testimonial-slider {
+    margin-top: 35px;
+  }
+}
