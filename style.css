@@ -84,7 +84,7 @@ img {
 }
 .btn--outline,
 .btn--arrow {
-  background: transparent;
+  background: #ffe492;
   color: #212529;
   border-color: #ffe492;
 }
