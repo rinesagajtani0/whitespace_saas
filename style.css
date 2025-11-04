@@ -18,7 +18,6 @@ img {
   max-width: 1280px;
   margin: 0 auto;
 }
-
 .main-header {
   background: #043873;
   padding: 20px 0;
@@ -82,7 +81,11 @@ img {
 .btn--arrow1:hover {
   background: #4f9cf9a6;
 }
-.btn--outline,
+.btn--outline{
+  background: transparent;
+  color: #212529;
+  border-color: #ffe492;
+}
 .btn--arrow {
   background: #ffe492;
   color: #212529;
@@ -139,7 +142,6 @@ img {
   height: 440px;
   object-fit: cover;
 }
-
 .project-content {
   padding-top: 100px;
 }
@@ -180,7 +182,6 @@ img {
 .project-section__image {
   float: right;
 }
-
 .work-content {
   padding-top: 650px;
 }
@@ -196,7 +197,6 @@ img {
   line-height: 100%;
   margin-bottom: 50px;
 }
-
 .hero {
   padding: 120px 16px;
   color: #fff;
@@ -239,7 +239,6 @@ img {
 .customise__content {
   max-width: 650px;
 }
-
 .pricing {
   padding: 80px 16px 100px;
 }
@@ -331,7 +330,6 @@ img {
   transform: translateY(-30px);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.35);
 }
-
 .integration {
   background: #003366;
   color: #fff;
@@ -384,7 +382,6 @@ img {
 .btn:hover .arrow-icon {
   transform: translateX(4px);
 }
-
 .testimonials {
   background: #fff;
   padding: 80px 0;
@@ -504,7 +501,6 @@ img {
   height: 12px;
   object-fit: contain;
 }
-
 @media (min-width: 1920px) {
   .hero {
     padding: 140px 0;
