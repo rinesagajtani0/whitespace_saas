@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0a2a66;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.hero h1 span {
+  display: block;
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.hero p {
+  margin: 8px 0;
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  background-color: #4f7df0;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  margin: 20px 0;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #6d93f7;
+}
+
+.small {
+  font-size: 0.9rem;
+  color: #cbd3ff;
+}
+
+.small a {
+  color: #cbd3ff;
+  text-decoration: underline;
+}
+
+
+footer {
+  background-color: #0a2a66;
+  padding: 60px 80px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.app-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.app-icons img {
+  width: 35px;
+  height: 35px;
+  filter: brightness(0) invert(1); 
+  transition: 0.3s ease;
+}
+
+.app-icons img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+
+.footer-col h2, .footer-col h3 {
+  margin-bottom: 10px;
+}
+
+.footer-col p {
+  max-width: 220px;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin: 6px 0;
+}
+
+.footer-col a {
+  color: #c9d5ff;
+  text-decoration: none;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+
+hr {
+  border: 1px solid #1d3f7a;
+  margin: 40px 0;
+}
+.bottom-footer {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 15px 150px; 
+  margin-top: 30px;
+}
+
+.bottom-footer .left,
+.bottom-footer .center,
+.bottom-footer .right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.bottom-footer .center ul {
+  display: flex;
+  gap: 35px; 
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.bottom-footer .center a {
+  color: #c9d5ff;
+  text-decoration: none;
+}
+
+.bottom-footer .center a:hover {
+  text-decoration: underline;
+}
+
+.bottom-footer .right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.social-icons img {
+  width: 22px;
+  height: 22px;
+  filter: brightness(0) invert(1);
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
