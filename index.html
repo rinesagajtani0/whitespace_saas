@@ -15,24 +15,33 @@
   </head>
 
   <body>
-    <header class="main-header">
-      <div class="container">
-        <div class="flex-container">
-          <a class="logo" href="#">
-            <img src="./images/Logo.svg" />
-          </a>
+<header class="header">
+  <div class="container header__container">
+    <div class="header__logo">
+      <img src="./images/logo.svg" alt="Whitepace Logo" />
+    </div>
 
-          <nav class="main-header__nav">
-            <a href="#">Product <img src="./images/Vector.png" /></a>
-            <a href="#">Solutions <img src="./images/Vector.png" /></a>
-            <a href="#">Resources <img src="./images/Vector.png" /></a>
-            <a href="#">Pircing <img src="./images/Vector.png" /></a>
+          <nav class="header__nav">
+            <ul>
+              <li>
+                <a href="#">Product <img src="./images/Vector.png" class="arrow"/></a>
+              </li>
+              <li>
+                <a href="#">Solutions <img src="./images/Vector.png" class="arrow" /></a>
+              </li>
+              <li>
+                <a href="#">Resources <img src="./images/Vector.png" class="arrow"/></a>
+              </li>
+              <li>
+                <a href="#">Pircing <img src="./images/Vector.png" class="arrow" /></a>
+              </li>
+            </ul>
           </nav>
 
-          <a href="#" class="btn btn--arrow"> Login </a>
-
-          <a href="#" class="btn btn--arrow1"> Try Whitespace free </a>
-
+          <div class="header__buttons">
+            <a href="#" class="btn btn--yellow">Login</a>
+            <a href="#" class="btn btn--blue">Try Whitespace free</a>
+          </div>
           <button class="hamburger">
             <img
               src="https://cdn-icons-png.flaticon.com/128/10486/10486773.png"
@@ -43,23 +52,22 @@
       </div>
     </header>
 
-    <main class="main-content">
-      <section class="main-section">
-        <div class="container">
-          <div class="main-section__content">
-            <h1>Get more done with whitepace</h1>
-            <p>
-              Project management software that enables your teams to
-              collaborate, plan, analyze and manage everyday tasks
-            </p>
-            <a href="#" class="btn btn--arrow1">Try Whitespace free</a>
-            <div class="main-section__image">
-              <img src="./images/banner-img.PNG" />
-            </div>
-          </div>
+    <section class="main-section">
+      <div class="container main-section__container">
+        <div class="main-section__content">
+          <h1>Get more done with <br />whitepace</h1>
+          <p>
+            Project management software that enables your teams to collaborate,
+            plan, analyze and manage everyday tasks.
+          </p>
+          <a href="#" class="btn btn--blue">Try Whitespace free</a>
         </div>
-      </section>
-    </main>
+
+        <div class="main-section__image">
+          <img src="./images/banner-img.PNG" alt="Team working illustration" />
+        </div>
+      </div>
+    </section>
 
     <section class="project-content">
       <div class="project-section">
@@ -67,40 +75,44 @@
           <img src="./images/backgroundcircle.png" alt="" />
         </div>
 
-        <div class="container">
-          <div class="project-section__content">
-            <h1>Project<br />Management</h1>
+        <div class="container project__container">
+          <div class="project__content">
+            <h1>Project <br />Management</h1>
             <p>
               Images, videos, PDFs and audio files are supported. Create math
               expressions and diagrams directly from the app. Take photos with
               the mobile app and save them to a note.
             </p>
-            <a href="#" class="btn btn--arrow1">Get started</a>
+            <a href="#" class="btn btn--blue">Get Started</a>
           </div>
 
-          <div class="project-section__image">
-            <img src="./images/project-img.PNG" />
+          <div class="project__image">
+            <img
+              src="./images/project-img.PNG"
+              alt="Project management illustration"
+            />
           </div>
         </div>
       </div>
     </section>
 
-    <section class="work-content">
-      <div class="work-section">
-        <div class="container">
-          <div class="work-section__background">
-            <img src="./images/WorkBackgorund.png" />
-          </div>
+    <section class="work-section">
+      <div class="container work__container">
+        <div class="work__image">
+          <img
+            src="./images/WorkBackgorund.png"
+            alt="Work Together illustration"
+          />
+        </div>
 
-          <div class="work-section__content">
-            <h1>Work Together</h1>
-            <p>
-              With whitepace, share your notes with your colleagues and
-              collaborate on <br />them. You can also publish a note to the
-              internet and share the URL with <br />others.
-            </p>
-            <a href="#" class="btn btn--arrow1">Try it now</a>
-          </div>
+        <div class="work__content">
+          <h1>Work <span class="highlight">Together</span></h1>
+          <p>
+            With Whitespace, share your notes with your colleagues and
+            collaborate on them. You can also publish a note to the internet and
+            share the URL with others.
+          </p>
+          <a href="#" class="btn btn--blue">Try it now</a>
         </div>
       </div>
     </section>
@@ -166,36 +178,60 @@
 
           <ul class="pricing__features">
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">Sync unlimited devices</span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">10 GB monthly uploads</span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">200 MB max. note size</span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Customize Home dashboard and access extra widgets
               </span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Connect primary Google Calendar account
               </span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Add due dates, reminders, and notifications to your tasks
               </span>
@@ -215,36 +251,60 @@
 
           <ul class="pricing__features">
             <li class="pricing__feature pricing__feature--light">
-              <img class="pricing__feature-icon" src="./images/Icon2.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon2.png"
+                alt=""
+              />
               <span class="pricing__feature-text">Sync unlimited devices</span>
             </li>
 
             <li class="pricing__feature pricing__feature--light">
-              <img class="pricing__feature-icon" src="./images/Icon2.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon2.png"
+                alt=""
+              />
               <span class="pricing__feature-text">10 GB monthly uploads</span>
             </li>
 
             <li class="pricing__feature pricing__feature--light">
-              <img class="pricing__feature-icon" src="./images/Icon2.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon2.png"
+                alt=""
+              />
               <span class="pricing__feature-text">200 MB max. note size</span>
             </li>
 
             <li class="pricing__feature pricing__feature--light">
-              <img class="pricing__feature-icon" src="./images/Icon2.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon2.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Customize Home dashboard and access extra widgets
               </span>
             </li>
 
             <li class="pricing__feature pricing__feature--light">
-              <img class="pricing__feature-icon" src="./images/Icon2.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon2.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Connect primary Google Calendar account
               </span>
             </li>
 
             <li class="pricing__feature pricing__feature--light">
-              <img class="pricing__feature-icon" src="./images/Icon2.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon2.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Add due dates, reminders, and notifications to your tasks
               </span>
@@ -262,36 +322,60 @@
 
           <ul class="pricing__features">
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">Sync unlimited devices</span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">10 GB monthly uploads</span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">200 MB max. note size</span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Customize Home dashboard and access extra widgets
               </span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Connect primary Google Calendar account
               </span>
             </li>
 
             <li class="pricing__feature">
-              <img class="pricing__feature-icon" src="./images/Icon.png" alt="" />
+              <img
+                class="pricing__feature-icon"
+                src="./images/Icon.png"
+                alt=""
+              />
               <span class="pricing__feature-text">
                 Add due dates, reminders, and notifications to your tasks
               </span>
@@ -304,45 +388,47 @@
     </section>
 
     <section class="your__work">
-      <div class="content">
-        <h1 class="main-title">Your work, everywhere you are</h1>
-        <p>
-          Acces your notes from your computer, phone or tablet by synchronising
-          with various services including whitepace, Dropbox <br />
-          and OneDrive. The app is avilable on Windows, macOS, Linux, Android
-          and iOS. Aterminal app is also avilable!
-        </p>
-        <a href="#">Try Taskey</a>
+      <div class="container">
+        <div class="content">
+          <h1 class="main-title">Your work, everywhere you are</h1>
+          <p>
+            Access your notes from your computer, phone or tablet by
+            synchronizing with various services including Whitespace, Dropbox
+            and OneDrive. <br />
+            The app is available on Windows, macOS, Linux, Android and iOS. A
+            terminal app is also available!
+          </p>
+          <a href="#" class="btn btn--blue">Try Taskey</a>
+        </div>
       </div>
     </section>
 
     <section class="your__data">
-      <div class="your__data-content">
-        <h1 class="main title" style="font-size: 72px;">100% your data</h1>
-        <p>
-          The app is open source and your notes are saved to an open format, so
-          you'll always have acces <br />
-          to them.Use End-To-End Encryption (E2EE) to secure your notes and
-          ensure no-one but <br />
-          yourself can access them.
-        </p>
-        <a href="#">Read more </a>
-      </div>
-      <div class="your__data-img">
-        <img src="./images/Element.png" />
+      <div class="container your__data-container">
+        <div class="your__data-content">
+          <h1 class="main-title">100% your data</h1>
+          <p>
+            The app is open source and your notes are saved to an open format,
+            so you'll always have access to them. <br />
+            Use End-To-End Encryption (E2EE) to secure your notes and ensure no
+            one but yourself can access them.
+          </p>
+          <a href="#" class="btn btn--blue">Read more</a>
+        </div>
+        <div class="your__data-img">
+          <img src="./images/Element.png" alt="Data Illustration" />
+        </div>
       </div>
     </section>
 
     <section class="our__sponsors">
-      <div class="our__sponsors-content">
-        <div class="title">
-          <h1 class="main-title">Our Sponsors</h1>
-        </div>
+      <div class="container">
+        <h1 class="main-title">Our Sponsors</h1>
         <div class="our__sponsors-img">
-          <img src="./images/Apple.png" />
-          <img src="./images/microsoft 1.png" />
-          <img src="./images/Slack_Technologies_Logo 1.png" />
-          <img src="./images/Group 246.png" />
+          <img src="./images/Apple.png" alt="Apple" />
+          <img src="./images/microsoft 1.png" alt="Microsoft" />
+          <img src="./images/Slack_Technologies_Logo 1.png" alt="Slack" />
+          <img src="./images/Group 246.png" alt="Google" />
         </div>
       </div>
     </section>
@@ -368,7 +454,7 @@
             <img
               src="./images/readmoreicon.png"
               alt="arrow"
-              class="arrow-icon"
+              class="arrow"
             />
           </a>
         </div>
